@@ -1,0 +1,14 @@
+{
+  "name": "simple-petshop",
+  "version": "1.0.0",
+  "description": "A simple petshop app using typescript and angular.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kimberly Ames",
+  "license": "MIT",
+  "dependencies": {
+    "json-server": "^0.9.0"
+  }
+}
