@@ -1,11 +1,14 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <title>Pets Page</title>
-    </head>
-    <body>
-        <h1>Pets Page</h1>
-
-    </body>
-</html>
+<h2>Pets Page</h2>
+<!-- List out the post objects -->
+<ul>
+    <li ng-repeat="pet in postController.petsList">
+        <div class="pet">
+            <div>
+                <strong>Name:</strong> {{ pet.name }}
+                <strong>Category:</strong> {{ pet.category }}
+                <strong>Breed:</strong> {{ pet.breed }}
+                <strong>Price:</strong> {{ pet.price }}
+            </div>
+        </div>
+    </li>
+</ul>

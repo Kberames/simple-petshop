@@ -1,1 +1,10 @@
-{}
+{
+    "pets": [
+  {
+    "Name": "Raider",
+    "category": "Dog",
+    "breed": "Pit/Boxer Mix",
+    "price": "350"
+  }
+]
+}
